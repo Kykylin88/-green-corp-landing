@@ -132,9 +132,28 @@ opacity: 0.65;
   text-align: left;
 }
 .form__submit{
- 
+  font-family: 'Raleway', sans—serif;
+    font-size: 15px;
+    color: #fff;
+    background-color: #23a030;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 16px 36px rgb(52 213 68 / 22%);
+    padding: 15px;
   font-size: 18px;
   font-weight: 600;
   padding-top: 40px;
  }
- 
+ select {
+  appearance: none;
+}
+input {
+  outline: none;
+}
+button:hover {
+  background-color: #f6980c;
+  color: black;
+  box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
+  transition: all 0,3s ease-in;
+}
