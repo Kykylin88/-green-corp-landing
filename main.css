@@ -46,6 +46,7 @@
   width: 100px;
   height: 100px;
 }
+
 @keyframes rotation {
   0% {
       -moz-transform: rotate(0deg);
