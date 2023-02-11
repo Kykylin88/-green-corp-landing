@@ -148,6 +148,7 @@ padding: 115px 60px;
   display: flex;
   justify-content: center;
 }
+
 .form__container {
   display: flex;
   flex-direction: column;
