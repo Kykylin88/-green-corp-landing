@@ -237,7 +237,30 @@ button:hover {
   color: #ff7039;
 }
 
+.promo__text {
+  background-color: white;
+   font-size: 20px;
+   font-weight: 500;
+  line-height: 26px;
+  padding: 30px 40px;
+  border-radius: 25px;
+ 
+  
+}
 
+.promo__text p::before {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #ec6b29;
+  content: "";
+  margin-right: 10px;
+  border-radius: 50%;
+  }
+
+.promo__text p {
+  opacity: 0.8;
+}
 /*формы*/
 .form__container {
   width: 550px;
