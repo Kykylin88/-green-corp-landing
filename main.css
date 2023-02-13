@@ -244,9 +244,7 @@ button:hover {
   line-height: 26px;
   padding: 30px 40px;
   border-radius: 25px;
- 
-  
-}
+ }
 
 .promo__text p::before {
   display: inline-block;
@@ -261,6 +259,58 @@ button:hover {
 .promo__text p {
   opacity: 0.8;
 }
+.promo__button-wrap {
+  display: flex;
+  justify-content: center;
+}
+.promo__text button {
+  font-weight: 600;
+  font-size: 18px;
+  background-color: #107b1c;
+  margin-top: 20px;
+  box-shadow: 0 16px 36px rgb(16 122 28 / 30%);
+  padding: 15px 30px;
+}
+
+.promo__text button i {
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+
+.promo {
+  display: flex;
+}
+
+.promo__image {
+  background-image: url(promo.jpg);
+  background-size: cover;
+  width: 50%;
+  flex-shrink: 0;
+  background-position: center;
+}
+
+.promo__right {
+  background: #dd5f26;
+  padding: 160px 60px;
+}
+
+@media (max-width: 720px) {
+  .promo {
+    flex-direction: column-reverse;
+  }
+ .promo__image {
+    width: 100%;
+    height: 500px;
+  }
+  .promo__right {
+    padding: 50px 10px;
+  }
+
+ 
+}
+
+
 /*формы*/
 .form__container {
   width: 550px;
