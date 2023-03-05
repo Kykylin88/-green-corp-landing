@@ -462,7 +462,16 @@ footer {
   text-align: center;
   /* border: #efeb08 solid 2px; */
 }
+.about {
+  position: relative;
+}
 
+.orb-canvas {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  right: 0;
+}
 /* Мобильные устройства */
 @media (max-width: 720px) {
   header {
